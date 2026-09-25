@@ -7,6 +7,7 @@ import { useIsMobile } from '../../hooks/useIsMobile'
 export function Header() {
   const [isStuck, setIsStuck] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const isMobile = useIsMobile(767)
   const location = useLocation()
 
@@ -21,6 +22,7 @@ export function Header() {
 
   useEffect(() => {
     setIsMenuOpen(false)
+    setActiveDropdown(null)
   }, [location.pathname])
 
   const mobileHeight = '70px'
@@ -69,16 +71,126 @@ export function Header() {
 
           {!isMobile && (
             <>
-              {/* CENTER: MAIN MENU */}
+              {/* CENTER: MAIN MENU WITH DROPDOWN */}
               <nav style={{ flex: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
-                <ul style={{ display: 'flex', listStyle: 'none', margin: 0, padding: 0 }}>
-                  {navigation.map((item) => (
-                    <li key={item.to} style={{ margin: '0 18px' }}>
-                      <NavLink to={item.to} style={({ isActive }) => ({ color: isActive ? '#ffb806' : (isStuck ? '#002d72' : '#ffffff'), fontWeight: isActive ? 800 : 700, fontSize: '15px', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', transition: 'color 0.3s ease' })}>
-                        {item.label}
-                      </NavLink>
-                    </li>
-                  ))}
+                <ul style={{ display: 'flex', listStyle: 'none', margin: 0, padding: 0, height: '100%', alignItems: 'center' }}>
+                  {navigation.map((item) => {
+                    if (item.type === 'dropdown') {
+                      const isHovered = activeDropdown === item.label
+                      return (
+                        <li 
+                          key={item.label} 
+                          style={{ position: 'relative', margin: '0 18px', display: 'flex', alignItems: 'center', height: '100%' }}
+                          onMouseEnter={() => setActiveDropdown(item.label)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                        >
+                          <Link 
+                            to={item.to} 
+                            style={{ 
+                              color: isHovered || location.pathname.includes('/san-pham') ? '#ffb806' : (isStuck ? '#002d72' : '#ffffff'), 
+                              fontWeight: 800, 
+                              fontSize: '15px', 
+                              textTransform: 'uppercase', 
+                              letterSpacing: '1px', 
+                              textDecoration: 'none', 
+                              transition: 'color 0.3s ease',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '6px',
+                              padding: '10px 0'
+                            }}
+                          >
+                            <span>{item.label}</span>
+                            <svg 
+                              width="12" 
+                              height="12" 
+                              viewBox="0 0 24 24" 
+                              fill="none" 
+                              stroke="currentColor" 
+                              strokeWidth="3" 
+                              strokeLinecap="round" 
+                              strokeLinejoin="round"
+                              style={{ 
+                                transition: 'transform 0.3s ease', 
+                                transform: isHovered ? 'rotate(180deg)' : 'rotate(0deg)' 
+                              }}
+                            >
+                              <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                          </Link>
+
+                          {/* Dropdown Menu Card */}
+                          <div 
+                            style={{
+                              position: 'absolute',
+                              top: '100%',
+                              left: '50%',
+                              transform: isHovered ? 'translateX(-50%) translateY(0)' : 'translateX(-50%) translateY(12px)',
+                              opacity: isHovered ? 1 : 0,
+                              visibility: isHovered ? 'visible' : 'hidden',
+                              pointerEvents: isHovered ? 'auto' : 'none',
+                              transition: 'all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1)',
+                              background: '#ffffff',
+                              borderRadius: '16px',
+                              padding: '12px',
+                              boxShadow: '0 20px 45px rgba(0, 38, 100, 0.18)',
+                              border: '1px solid rgba(0, 38, 100, 0.08)',
+                              minWidth: '260px',
+                              zIndex: 1005
+                            }}
+                          >
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                              {item.children.map((child) => {
+                                const isHighlight = child.to.includes('thung-carton-3-lop') || child.to.includes('thung-carton-5-lop')
+                                return (
+                                  <NavLink 
+                                    key={child.to} 
+                                    to={child.to}
+                                    style={({ isActive }) => ({
+                                      padding: '10px 16px',
+                                      borderRadius: '10px',
+                                      fontSize: '14px',
+                                      fontWeight: isActive || isHighlight ? 800 : 600,
+                                      color: isActive ? '#ffb806' : '#002664',
+                                      background: isActive ? '#f0f4f9' : (isHighlight ? '#f8fafc' : 'transparent'),
+                                      textDecoration: 'none',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'space-between',
+                                      transition: 'all 0.2s ease'
+                                    })}
+                                    onMouseEnter={(e) => {
+                                      e.currentTarget.style.background = '#f0f4f9'
+                                      e.currentTarget.style.color = '#002d72'
+                                      e.currentTarget.style.paddingLeft = '20px'
+                                    }}
+                                    onMouseLeave={(e) => {
+                                      e.currentTarget.style.background = isHighlight ? '#f8fafc' : 'transparent'
+                                      e.currentTarget.style.color = '#002664'
+                                      e.currentTarget.style.paddingLeft = '16px'
+                                    }}
+                                  >
+                                    <span>{child.label}</span>
+                                    {isHighlight && (
+                                      <span style={{ fontSize: '10px', background: '#002664', color: '#fff', padding: '2px 8px', borderRadius: '12px', fontWeight: 700 }}>B2B</span>
+                                    )}
+                                  </NavLink>
+                                )
+                              })}
+                            </div>
+                          </div>
+                        </li>
+                      )
+                    }
+
+                    return (
+                      <li key={item.to} style={{ margin: '0 18px' }}>
+                        <NavLink to={item.to} style={({ isActive }) => ({ color: isActive ? '#ffb806' : (isStuck ? '#002d72' : '#ffffff'), fontWeight: isActive ? 800 : 700, fontSize: '15px', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', transition: 'color 0.3s ease' })}>
+                          {item.label}
+                        </NavLink>
+                      </li>
+                    )
+                  })}
                 </ul>
               </nav>
 
@@ -204,12 +316,9 @@ export function Header() {
             justifyContent: 'flex-start', 
             alignItems: 'center', 
             padding: '0 15px', 
-            height: '70px', // ĐỒNG BỘ CHIỀU CAO VỚI HEADER BÊN NGOÀI
+            height: '70px',
             position: 'relative' 
         }}>
-             {/* Removed duplicate logo to avoid clashing with the main header logo */}
-             
-             {/* NÚT CLOSE (ĐÓNG) - MINIMALIST ICON */}
              <div 
                onClick={() => setIsMenuOpen(false)} 
                style={{ 
@@ -232,15 +341,35 @@ export function Header() {
              </div>
         </div>
 
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', padding: '40px 25px 30px 25px', overflowY: 'auto' }}>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', padding: '30px 25px 30px 25px', overflowY: 'auto' }}>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-            {navigation.map((item, index) => (
-              <li key={item.to} style={{ marginBottom: '24px', opacity: isMenuOpen ? 1 : 0, transform: isMenuOpen ? 'translateX(0)' : 'translateX(30px)', transition: `all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) ${index * 0.1}s` }}>
-                <NavLink to={item.to} style={({ isActive }) => ({ color: isActive ? '#ffb806' : '#002d72', fontSize: '20px', fontWeight: 800, textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '1px' })}>
-                  {item.label}
-                </NavLink>
-              </li>
-            ))}
+            {navigation.map((item, index) => {
+              if (item.type === 'dropdown') {
+                return (
+                  <li key={item.label} style={{ marginBottom: '24px' }}>
+                    <div style={{ color: '#002d72', fontSize: '20px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px' }}>
+                      {item.label}
+                    </div>
+                    <ul style={{ listStyle: 'none', paddingLeft: '16px', margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', borderLeft: '2px solid #002d72' }}>
+                      {item.children.map((child) => (
+                        <li key={child.to}>
+                          <NavLink to={child.to} onClick={() => setIsMenuOpen(false)} style={({ isActive }) => ({ color: isActive ? '#ffb806' : '#475569', fontSize: '16px', fontWeight: 700, textDecoration: 'none' })}>
+                            {child.label}
+                          </NavLink>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                )
+              }
+              return (
+                <li key={item.to} style={{ marginBottom: '24px', opacity: isMenuOpen ? 1 : 0, transform: isMenuOpen ? 'translateX(0)' : 'translateX(30px)', transition: `all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) ${index * 0.1}s` }}>
+                  <NavLink to={item.to} style={({ isActive }) => ({ color: isActive ? '#ffb806' : '#002d72', fontSize: '20px', fontWeight: 800, textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '1px' })}>
+                    {item.label}
+                  </NavLink>
+                </li>
+              )
+            })}
           </ul>
         </div>
 
