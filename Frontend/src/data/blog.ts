@@ -106,7 +106,7 @@ export const blogPosts: BlogCardModel[] = [
   {
     title: 'Hộp Bế Carton Là Gì? Ứng Dụng Hộp Bế Trong Thương Mại Điện Tử',
     excerpt: 'Khám phá cấu tạo và ưu điểm vượt trội của hộp bế carton. Giải pháp đóng gói thông minh tối ưu cho các sản phẩm nhỏ gọn, tinh tế.',
-    imageSrc: 'https://res.cloudinary.com/zq7yx874/image/upload/v1790234823/haiquan_web/cac-loai-song.webp',
+    imageSrc: '/images/thung-3-lop-bc.png',
     categoryLabel: 'Sản phẩm',
     to: '/blog/hop-be-carton-la-gi',
     fullContent: `

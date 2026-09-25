@@ -213,41 +213,57 @@ export function Thung5LopPage() {
               </div>
 
               {/* Action Buttons */}
-              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', alignItems: 'center' }}>
                 <button 
                   onClick={scrollToContact}
                   style={{
                     backgroundColor: '#002664',
                     color: '#ffffff',
-                    padding: '14px 28px',
-                    borderRadius: '8px',
+                    height: '52px',
+                    padding: '0 26px',
+                    margin: 0,
+                    borderRadius: '10px',
                     fontWeight: 700,
-                    fontSize: '1rem',
+                    fontSize: '0.98rem',
                     border: 'none',
                     cursor: 'pointer',
                     boxShadow: '0 4px 14px rgba(0, 38, 100, 0.25)',
-                    transition: 'all 0.2s'
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxSizing: 'border-box',
+                    lineHeight: 1,
+                    verticalAlign: 'middle',
+                    transition: 'all 0.25s ease'
                   }}
                 >
                   Nhận Báo Giá Sỉ Tại Xưởng
                 </button>
 
                 <a 
-                  href="tel:0968123456" 
+                  href="tel:0796265379" 
                   style={{
                     backgroundColor: '#ffb806',
                     color: '#002664',
-                    padding: '14px 24px',
-                    borderRadius: '8px',
+                    height: '52px',
+                    padding: '0 26px',
+                    margin: 0,
+                    borderRadius: '10px',
                     fontWeight: 700,
-                    fontSize: '1rem',
+                    fontSize: '0.98rem',
                     textDecoration: 'none',
                     display: 'inline-flex',
                     alignItems: 'center',
-                    gap: '8px'
+                    justifyContent: 'center',
+                    gap: '8px',
+                    boxSizing: 'border-box',
+                    lineHeight: 1,
+                    verticalAlign: 'middle',
+                    boxShadow: '0 4px 14px rgba(255, 184, 6, 0.3)',
+                    transition: 'all 0.25s ease'
                   }}
                 >
-                  📞 Hotline: 0968.123.456
+                  📞 Hotline: 0796.265.379
                 </a>
               </div>
 
@@ -274,23 +290,23 @@ export function Thung5LopPage() {
                   <td style={{ padding: '14px 20px', color: '#334155' }}>Thùng đối khẩu (A1 / RSC), Thùng nắp chồm, Thùng bế quai xách</td>
                 </tr>
                 <tr style={{ borderBottom: '1px solid #edf2f7' }}>
-                  <td style={{ padding: '14px 20px', fontWeight 700, color: '#002664', background: '#f1f5f9' }}>Kết cấu lớp sóng</td>
+                  <td style={{ padding: '14px 20px', fontWeight: 700, color: '#002664', background: '#f1f5f9' }}>Kết cấu lớp sóng</td>
                   <td style={{ padding: '14px 20px', color: '#334155' }}>5 lớp (Sóng đôi BC: 1 sóng B 3mm + 1 sóng C 4mm)</td>
                 </tr>
                 <tr style={{ borderBottom: '1px solid #edf2f7' }}>
-                  <td style={{ padding: '14px 20px', fontWeight 700, color: '#002664', background: '#f1f5f9' }}>Định lượng giấy (GSM)</td>
+                  <td style={{ padding: '14px 20px', fontWeight: 700, color: '#002664', background: '#f1f5f9' }}>Định lượng giấy (GSM)</td>
                   <td style={{ padding: '14px 20px', color: '#334155' }}>120 GSM - 250 GSM (Giấy Kraft Nâu / Vàng / Trắng nhập khẩu hoặc nội địa)</td>
                 </tr>
                 <tr style={{ borderBottom: '1px solid #edf2f7' }}>
-                  <td style={{ padding: '14px 20px', fontWeight 700, color: '#002664', background: '#f1f5f9' }}>Khả năng chịu tải</td>
+                  <td style={{ padding: '14px 20px', fontWeight: 700, color: '#002664', background: '#f1f5f9' }}>Khả năng chịu tải</td>
                   <td style={{ padding: '14px 20px', color: '#334155' }}>20kg - 60kg+ (Xếp chồng container 5 - 7 tầng an toàn)</td>
                 </tr>
                 <tr style={{ borderBottom: '1px solid #edf2f7' }}>
-                  <td style={{ padding: '14px 20px', fontWeight 700, color: '#002664', background: '#f1f5f9' }}>Công nghệ in ấn</td>
+                  <td style={{ padding: '14px 20px', fontWeight: 700, color: '#002664', background: '#f1f5f9' }}>Công nghệ in ấn</td>
                   <td style={{ padding: '14px 20px', color: '#334155' }}>In Flexo công nghiệp 1 - 4 màu hoặc In Offset cán màng bóng/mờ</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: '14px 20px', fontWeight 700, color: '#002664', background: '#f1f5f9' }}>Năng lực cung ứng</td>
+                  <td style={{ padding: '14px 20px', fontWeight: 700, color: '#002664', background: '#f1f5f9' }}>Năng lực cung ứng</td>
                   <td style={{ padding: '14px 20px', color: '#334155' }}>&gt; 50.000 thùng/ngày • Sản xuất tại KCN Đại Đồng, Bắc Ninh</td>
                 </tr>
               </tbody>

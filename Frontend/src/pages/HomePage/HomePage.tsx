@@ -40,7 +40,7 @@ export function HomePage() {
           "image": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234824/haiquan_web/logoHaiQuanWeb.webp",
           "@id": "https://baobihaiquan.vn",
           "url": "https://baobihaiquan.vn",
-          "telephone": "+84123456789", 
+          "telephone": "+84796265379", 
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Khu công nghiệp Đại Đồng Hoàn Sơn",

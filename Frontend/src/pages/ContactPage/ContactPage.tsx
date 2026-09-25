@@ -4,7 +4,7 @@ import { HeroBanner } from '../../components/Hero/HeroBanner'
 
 export function ContactPage() {
   const videoUrl = '/video/bannerBG.mp4'
-  const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.259835753909!2d105.99049431109723!3d21.102206785236757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509653edcbaff%3A0x6bba847c2f6d0f66!2zS0NOIMSQ4bqhaSDEkOG7k25nIC0gSG_DoG4gU8ahbg!5e0!3m2!1svi!2s!4v1712210000000!5m2!1svi!2s"
+  const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.5694200762395!2d106.0023323!3d21.0927243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135090012f98903%3A0xb3b8979ea6c7ddf5!2zTmjDoCBtw6F5IGJhbyBiw6wgSOG6o2kgUXXDom4!5e0!3m2!1svi!2s!4v1712210000000!5m2!1svi!2s"
 
   return (
     <>
@@ -118,8 +118,14 @@ export function ContactPage() {
                 </div>
 
                 {/* Main Action Button */}
-                <a className="button primary btn-home-t" style={{ borderRadius: 99, width: '100%', justifyContent: 'center', marginBottom: '25px' }}>
-                  <span>Xem tất cả địa điểm</span>
+                <a 
+                  href="https://maps.app.goo.gl/sHcHtmQrmspVsrXf7" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="button primary btn-home-t" 
+                  style={{ borderRadius: 99, width: '100%', justifyContent: 'center', marginBottom: '25px' }}
+                >
+                  <span>Mở vị trí trên Google Maps</span>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '10px' }}><path d="M9 18l6-6-6-6"></path></svg>
                 </a>
 

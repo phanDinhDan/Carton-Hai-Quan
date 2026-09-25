@@ -73,8 +73,8 @@ export function Thung3LopPage() {
                 </div>
 
                 <img 
-                  src="https://res.cloudinary.com/zq7yx874/image/upload/v1790234823/haiquan_web/cac-loai-song.webp" 
-                  alt="Thùng carton 3 lớp Hải Quân" 
+                  src="/images/thung-3-lop-bc.png" 
+                  alt="Thùng carton 3 lớp sóng B và sóng C Hải Quân" 
                   style={{ 
                     width: '100%', 
                     height: 'auto', 
@@ -212,41 +212,57 @@ export function Thung3LopPage() {
               </div>
 
               {/* Action Buttons */}
-              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', alignItems: 'center' }}>
                 <button 
                   onClick={scrollToContact}
                   style={{
                     backgroundColor: '#002664',
                     color: '#ffffff',
-                    padding: '14px 28px',
-                    borderRadius: '8px',
+                    height: '52px',
+                    padding: '0 26px',
+                    margin: 0,
+                    borderRadius: '10px',
                     fontWeight: 700,
-                    fontSize: '1rem',
+                    fontSize: '0.98rem',
                     border: 'none',
                     cursor: 'pointer',
                     boxShadow: '0 4px 14px rgba(0, 38, 100, 0.25)',
-                    transition: 'all 0.2s'
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxSizing: 'border-box',
+                    lineHeight: 1,
+                    verticalAlign: 'middle',
+                    transition: 'all 0.25s ease'
                   }}
                 >
                   Nhận Báo Giá Thùng 3 Lớp
                 </button>
 
                 <a 
-                  href="tel:0968123456" 
+                  href="tel:0796265379" 
                   style={{
                     backgroundColor: '#ffb806',
                     color: '#002664',
-                    padding: '14px 24px',
-                    borderRadius: '8px',
+                    height: '52px',
+                    padding: '0 26px',
+                    margin: 0,
+                    borderRadius: '10px',
                     fontWeight: 700,
-                    fontSize: '1rem',
+                    fontSize: '0.98rem',
                     textDecoration: 'none',
                     display: 'inline-flex',
                     alignItems: 'center',
-                    gap: '8px'
+                    justifyContent: 'center',
+                    gap: '8px',
+                    boxSizing: 'border-box',
+                    lineHeight: 1,
+                    verticalAlign: 'middle',
+                    boxShadow: '0 4px 14px rgba(255, 184, 6, 0.3)',
+                    transition: 'all 0.25s ease'
                   }}
                 >
-                  📞 Hotline: 0968.123.456
+                  📞 Hotline: 0796.265.379
                 </a>
               </div>
 
