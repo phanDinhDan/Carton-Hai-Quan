@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
+import { SEO } from '../../components/SEO/SEO'
 import { HeroSlider } from '../../components/Hero/HeroSlider'
 import { Advantages } from '../../components/Sections/Advantages'
 import { FeaturedSections } from '../../components/Sections/FeaturedSections'
@@ -29,9 +29,47 @@ export function HomePage() {
 
   return (
     <>
-      <Helmet>
-        <title>Công ty Cổ phần Bao bì Hải Quân</title>
-      </Helmet>
+      <SEO 
+        title="Công ty Cổ phần Bao bì Hải Quân | Sản Xuất Thùng Carton Giá Rẻ"
+        description="Bao bì Hải Quân chuyên sản xuất thùng carton, in hộp giấy theo yêu cầu, hộp bế carton uy tín, chất lượng cao tại Bắc Ninh, Hà Nội. Nhận tư vấn thiết kế và báo giá ngay!"
+        keywords="sản xuất thùng carton, thùng carton giá rẻ, mua thùng carton ở đâu, hộp bế carton, in hộp giấy theo yêu cầu, bao bì hải quân, bao bì carton bắc ninh, sản xuất bao bì giấy"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Công ty Cổ phần Bao Bì Hải Quân",
+          "image": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234824/haiquan_web/logoHaiQuanWeb.webp",
+          "@id": "https://baobihaiquan.vn",
+          "url": "https://baobihaiquan.vn",
+          "telephone": "+84123456789", 
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Khu công nghiệp Đại Đồng Hoàn Sơn",
+            "addressLocality": "Huyện Tiên Du",
+            "addressRegion": "Bắc Ninh",
+            "postalCode": "220000",
+            "addressCountry": "VN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 21.1091, 
+            "longitude": 106.0028
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          },
+          "priceRange": "$$"
+        }}
+      />
 
       <HeroSlider slides={homeContent.hero} />
 
