@@ -67,7 +67,7 @@ export const blogPosts: BlogCardModel[] = [
       <h2>Sản Xuất Thùng Carton Giá Rẻ, Chất Lượng Cao Tại Bắc Ninh và Miền Bắc</h2>
       <p>Bạn đang tìm kiếm đối tác <strong>sản xuất thùng carton</strong> uy tín? Bao Bì Hải Quân là nhà máy sản xuất trực tiếp với hệ thống máy móc hiện đại như máy sóng, máy bế, máy in flexo công nghệ cao.</p>
       <h3>Quy trình sản xuất thùng carton đạt chuẩn ISO 9001:2015</h3>
-      <p>Tại Hải Quân, quy trình sản xuất bao bì giấy được kiểm soát nghiêm ngặt từ khâu nguyên liệu đầu vào đến thành phẩm cuối cùng. Chúng tôi cung cấp các loại thùng carton 3 lớp, 5 lớp, 7 lớp đa dạng quy cách sóng (A, B, C, E, BC, CE).</p>
+      <p>Tại Hải Quân, quy trình sản xuất bao bì giấy được kiểm soát nghiêm ngặt từ khâu nguyên liệu đầu vào đến thành phẩm cuối cùng. Chúng tôi chuyên sản xuất các loại thùng carton 3 lớp, 5 lớp chất lượng cao với cấu trúc sóng B, sóng C, và sóng BC bền bỉ.</p>
       <p>Việc làm việc trực tiếp với nhà máy sản xuất giúp bạn tối ưu hóa tới 15% chi phí bao bì, không mất phí trung gian và chủ động hoàn toàn về tiến độ giao hàng.</p>
     `
   },

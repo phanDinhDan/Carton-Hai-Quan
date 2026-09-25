@@ -12,6 +12,8 @@ import { TheoKyThuatPage } from '../../pages/TheoKyThuatPage/TheoKyThuatPage'
 import { TheoNganhPage } from '../../pages/TheoNganhPage/TheoNganhPage'
 import { SearchPage } from '../../pages/SearchPage/SearchPage'
 import { BlogPostPage } from '../../pages/BlogPage/subpages/BlogPostPage'
+import { Thung3LopPage } from '../../pages/LandingPages/Thung3LopPage'
+import { Thung5LopPage } from '../../pages/LandingPages/Thung5LopPage'
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +32,8 @@ export const router = createBrowserRouter([
       { path: 'theo-ky-thuat', element: <TheoKyThuatPage /> },
       { path: 'phu-tro', element: <PhuTroPage /> },
       { path: 'tim-kiem', element: <SearchPage /> },
+      { path: 'san-pham/thung-carton-3-lop', element: <Thung3LopPage /> },
+      { path: 'san-pham/thung-carton-5-lop', element: <Thung5LopPage /> },
     ],
   },
 ])

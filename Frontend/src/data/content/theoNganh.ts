@@ -34,7 +34,7 @@ export const theoNganhContent: ProductSubpageContent = {
     },
     {
       title: 'Đồ gỗ, nội thất',
-      body: 'Với đặc thù hàng hóa nặng, cồng kềnh, thùng carton ngành nội thất thường là loại 5 lớp hoặc 7 lớp, sử dụng sóng kép AB, BC hoặc sóng ba. Cấu trúc này giúp thùng chịu lực nén và tải trọng lớn, bảo vệ sản phẩm như bàn ghế, tủ kệ trong quá trình vận chuyển và xuất khẩu. Doanh nghiệp trong ngành nội thất lựa chọn loại thùng này để giảm thiểu rủi ro hư hỏng, tiết kiệm chi phí đền bù và đảm bảo uy tín khi giao hàng.',
+      body: 'Với đặc thù hàng hóa nặng, cồng kềnh, thùng carton ngành nội thất thường là loại 5 lớp chất lượng cao, sử dụng sóng kép BC hoặc 3 lớp sóng C. Cấu trúc này giúp thùng chịu lực nén và tải trọng lớn, bảo vệ sản phẩm như bàn ghế, tủ kệ trong quá trình vận chuyển và xuất khẩu. Doanh nghiệp trong ngành nội thất lựa chọn loại thùng này để giảm thiểu rủi ro hư hỏng, tiết kiệm chi phí đền bù và đảm bảo uy tín khi giao hàng.',
       imageSrc: 'https://res.cloudinary.com/zq7yx874/image/upload/v1790234807/haiquan_web/nganh_go_xuat_khau.webp',
       imageSide: 'right',
     },

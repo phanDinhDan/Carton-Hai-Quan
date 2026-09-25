@@ -9,8 +9,8 @@ export const theoKyThuatContent: ProductSubpageContent = {
   },
   sections: [
     {
-      title: 'Sóng & lớp: A/B/C/E, 2–5 lớp',
-      body: 'Mỗi loại sóng có ưu điểm riêng: sóng A cao, khả năng chống sốc tốt; sóng B thấp, chịu nén bề mặt; sóng C trung bình, cân bằng; sóng E mỏng, nhẹ, in đẹp. Khi kết hợp nhiều sóng sẽ tạo ra thùng 5 lớp hoặc 7 lớp, phù hợp cho hàng nặng hoặc xuất khẩu. Khách hàng có thể chọn cấu trúc phù hợp dựa trên tính chất hàng hóa, từ đồ nhẹ đến nội thất cồng kềnh.',
+      title: 'Sóng & lớp: B/C, 3–5 lớp',
+      body: 'Mỗi loại sóng có ưu điểm riêng: sóng C có độ cao trung bình, cân bằng tốt giữa chịu lực và in ấn; sóng B thấp hơn, bề mặt phẳng mịn giúp chịu nén bề mặt tốt và tối ưu độ sắc nét khi in. Khi kết hợp sẽ tạo ra thùng 5 lớp sóng BC mạnh mẽ, phù hợp cho hàng nặng, đồ nội thất hoặc xuất khẩu. Tùy thuộc vào sản phẩm, Hải Quân sẽ tư vấn loại thùng 3 lớp hoặc 5 lớp tối ưu nhất.',
       imageSrc: 'https://res.cloudinary.com/zq7yx874/image/upload/v1790234785/haiquan_web/cac_loai_song.webp',
       imageSide: 'right',
     },

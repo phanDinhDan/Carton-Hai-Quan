@@ -28,7 +28,7 @@ export function ProductCategoryPage() {
 
       <SplitSection
         title="Theo ngành"
-        description="Mỗi ngành hàng đều có những yêu cầu riêng biệt về đóng gói. Nhóm sản phẩm này được thiết kế chuyên biệt cho từng lĩnh vực: thùng chống ẩm, có lỗ thoáng cho thủy sản và nông nghiệp; thùng tiêu chuẩn RSC, in logo và mã vạch cho thương mại điện tử; thùng chống tĩnh điện và có vách ngăn cho điện tử và linh kiện; thùng in màu sắc nét cho thực phẩm – đồ uống; thùng 5–7 lớp chịu tải cho đồ gỗ, nội thất; và thùng trưng bày (shelf ready) cho FMCG & bán lẻ. Điểm chung là mỗi giải pháp đều được xây dựng dựa trên insight thực tế của ngành, đảm bảo hàng hóa giữ nguyên chất lượng, tối ưu chi phí và tăng uy tín thương hiệu khi đến tay người tiêu dùng."
+        description="Mỗi ngành hàng đều có những yêu cầu riêng biệt về đóng gói. Nhóm sản phẩm này được thiết kế chuyên biệt cho từng lĩnh vực: thùng chống ẩm, có lỗ thoáng cho thủy sản và nông nghiệp; thùng tiêu chuẩn RSC, in logo và mã vạch cho thương mại điện tử; thùng chống tĩnh điện và có vách ngăn cho điện tử và linh kiện; thùng in màu sắc nét cho thực phẩm – đồ uống; thùng 3-5 lớp sóng B, C chịu tải cho đồ nội thất; và thùng trưng bày (shelf ready) cho FMCG & bán lẻ. Điểm chung là mỗi giải pháp đều được xây dựng dựa trên insight thực tế của ngành, đảm bảo hàng hóa giữ nguyên chất lượng, tối ưu chi phí và tăng uy tín thương hiệu khi đến tay người tiêu dùng."
         image="https://res.cloudinary.com/zq7yx874/image/upload/v1790234819/haiquan_web/theo_nganh.webp"
         ctaText="Xem thêm"
         ctaTo="/theo-nganh"
