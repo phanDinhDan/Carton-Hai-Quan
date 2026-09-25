@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Fix global overflow issue and hide scrollbars for premium look */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure containers never exceed viewport width while respecting max-widths */
+.container {
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Add safe margins (padding) on left and right for laptop/smaller screens */
+@media (max-width: 1550px) {
+  .container {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Optimize typography responsive scaling for 1366px screens */
+.responsive-h2 {
+  font-size: 36px;
+}
+.responsive-p {
+  font-size: 17px;
+}
+.advantages-text-col {
+  padding-right: 40px;
+}
+
+@media (max-width: 1400px) {
+  .responsive-h2 {
+    font-size: 30px !important;
+  }
+  .responsive-p {
+    font-size: 16px !important;
+  }
+  .icon-box-text {
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 849px) {
+  .advantages-text-col {
+    padding-right: 0 !important;
+    padding-bottom: 30px !important;
+  }
+}
+

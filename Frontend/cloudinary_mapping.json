@@ -1,0 +1,471 @@
+[
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\favicon.svg",
+    "fileName": "favicon.svg",
+    "fileNameWithoutExt": "favicon",
+    "relPath": "public\\favicon.svg",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/raw/upload/v1790234765/haiquan_web/favicon.svg"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\favicon.webp",
+    "fileName": "favicon.webp",
+    "fileNameWithoutExt": "favicon",
+    "relPath": "public\\favicon.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234720/haiquan_web/favicon.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\icons.svg",
+    "fileName": "icons.svg",
+    "fileNameWithoutExt": "icons",
+    "relPath": "public\\icons.svg",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/raw/upload/v1790234768/haiquan_web/icons.svg"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\5PF-Animation.webp",
+    "fileName": "5PF-Animation.webp",
+    "fileNameWithoutExt": "5PF-Animation",
+    "relPath": "public\\images\\5PF-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234771/haiquan_web/5PF-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\AFM-Animation.webp",
+    "fileName": "AFM-Animation.webp",
+    "fileNameWithoutExt": "AFM-Animation",
+    "relPath": "public\\images\\AFM-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234775/haiquan_web/AFM-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\ALB-Animation.webp",
+    "fileName": "ALB-Animation.webp",
+    "fileNameWithoutExt": "ALB-Animation",
+    "relPath": "public\\images\\ALB-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234777/haiquan_web/ALB-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Assortment-of-Heavyh-Duty-Packaging.webp",
+    "fileName": "Assortment-of-Heavyh-Duty-Packaging.webp",
+    "fileNameWithoutExt": "Assortment-of-Heavyh-Duty-Packaging",
+    "relPath": "public\\images\\Assortment-of-Heavyh-Duty-Packaging.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234778/haiquan_web/Assortment-of-Heavyh-Duty-Packaging.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Assortment-of-Shipping-Containers.webp",
+    "fileName": "Assortment-of-Shipping-Containers.webp",
+    "fileNameWithoutExt": "Assortment-of-Shipping-Containers",
+    "relPath": "public\\images\\Assortment-of-Shipping-Containers.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234779/haiquan_web/Assortment-of-Shipping-Containers.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Assortment-of-Stock-Packaging-Supplies.webp",
+    "fileName": "Assortment-of-Stock-Packaging-Supplies.webp",
+    "fileNameWithoutExt": "Assortment-of-Stock-Packaging-Supplies",
+    "relPath": "public\\images\\Assortment-of-Stock-Packaging-Supplies.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234779/haiquan_web/Assortment-of-Stock-Packaging-Supplies.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\ban le.webp",
+    "fileName": "ban le.webp",
+    "fileNameWithoutExt": "ban le",
+    "relPath": "public\\images\\ban le.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234781/haiquan_web/ban_le.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\BulkMaster-630x450-1.webp",
+    "fileName": "BulkMaster-630x450-1.webp",
+    "fileNameWithoutExt": "BulkMaster-630x450-1",
+    "relPath": "public\\images\\BulkMaster-630x450-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234782/haiquan_web/BulkMaster-630x450-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\By-Industry-Icon-75x75-1.webp",
+    "fileName": "By-Industry-Icon-75x75-1.webp",
+    "fileNameWithoutExt": "By-Industry-Icon-75x75-1",
+    "relPath": "public\\images\\By-Industry-Icon-75x75-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234782/haiquan_web/By-Industry-Icon-75x75-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\By-Need-Icon-75x75-1.webp",
+    "fileName": "By-Need-Icon-75x75-1.webp",
+    "fileNameWithoutExt": "By-Need-Icon-75x75-1",
+    "relPath": "public\\images\\By-Need-Icon-75x75-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234783/haiquan_web/By-Need-Icon-75x75-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\By-Service-Icon-75x75-1.webp",
+    "fileName": "By-Service-Icon-75x75-1.webp",
+    "fileNameWithoutExt": "By-Service-Icon-75x75-1",
+    "relPath": "public\\images\\By-Service-Icon-75x75-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234784/haiquan_web/By-Service-Icon-75x75-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\cac loai song.webp",
+    "fileName": "cac loai song.webp",
+    "fileNameWithoutExt": "cac loai song",
+    "relPath": "public\\images\\cac loai song.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234785/haiquan_web/cac_loai_song.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Compass.webp",
+    "fileName": "Compass.webp",
+    "fileNameWithoutExt": "Compass",
+    "relPath": "public\\images\\Compass.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234785/haiquan_web/Compass.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Contain-Icon-75x75-1.webp",
+    "fileName": "Contain-Icon-75x75-1.webp",
+    "fileNameWithoutExt": "Contain-Icon-75x75-1",
+    "relPath": "public\\images\\Contain-Icon-75x75-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234786/haiquan_web/Contain-Icon-75x75-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\do uong.webp",
+    "fileName": "do uong.webp",
+    "fileNameWithoutExt": "do uong",
+    "relPath": "public\\images\\do uong.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234787/haiquan_web/do_uong.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\doi khau-2.webp",
+    "fileName": "doi khau-2.webp",
+    "fileNameWithoutExt": "doi khau-2",
+    "relPath": "public\\images\\doi khau-2.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234788/haiquan_web/doi_khau-2.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\ESG-Image.webp",
+    "fileName": "ESG-Image.webp",
+    "fileNameWithoutExt": "ESG-Image",
+    "relPath": "public\\images\\ESG-Image.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234789/haiquan_web/ESG-Image.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\ExportPack-630x450-1.webp",
+    "fileName": "ExportPack-630x450-1.webp",
+    "fileNameWithoutExt": "ExportPack-630x450-1",
+    "relPath": "public\\images\\ExportPack-630x450-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234789/haiquan_web/ExportPack-630x450-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\FOL-Animation.webp",
+    "fileName": "FOL-Animation.webp",
+    "fileNameWithoutExt": "FOL-Animation",
+    "relPath": "public\\images\\FOL-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234790/haiquan_web/FOL-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\giay kraft.webp",
+    "fileName": "giay kraft.webp",
+    "fileNameWithoutExt": "giay kraft",
+    "relPath": "public\\images\\giay kraft.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234791/haiquan_web/giay_kraft.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\giay to ong.webp",
+    "fileName": "giay to ong.webp",
+    "fileNameWithoutExt": "giay to ong",
+    "relPath": "public\\images\\giay to ong.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234792/haiquan_web/giay_to_ong.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Grid-Lok-630x450-1.webp",
+    "fileName": "Grid-Lok-630x450-1.webp",
+    "fileNameWithoutExt": "Grid-Lok-630x450-1",
+    "relPath": "public\\images\\Grid-Lok-630x450-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234793/haiquan_web/Grid-Lok-630x450-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Hero-Image-1-1.webp",
+    "fileName": "Hero-Image-1-1.webp",
+    "fileNameWithoutExt": "Hero-Image-1-1",
+    "relPath": "public\\images\\Hero-Image-1-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234795/haiquan_web/Hero-Image-1-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\IMG_7133-scaled.webp",
+    "fileName": "IMG_7133-scaled.webp",
+    "fileNameWithoutExt": "IMG_7133-scaled",
+    "relPath": "public\\images\\IMG_7133-scaled.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234796/haiquan_web/IMG_7133-scaled.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\IMG_7138-scaled.webp",
+    "fileName": "IMG_7138-scaled.webp",
+    "fileNameWithoutExt": "IMG_7138-scaled",
+    "relPath": "public\\images\\IMG_7138-scaled.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234797/haiquan_web/IMG_7138-scaled.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\IMG_7142-scaled.webp",
+    "fileName": "IMG_7142-scaled.webp",
+    "fileNameWithoutExt": "IMG_7142-scaled",
+    "relPath": "public\\images\\IMG_7142-scaled.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234798/haiquan_web/IMG_7142-scaled.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\IMG_7148-scaled.webp",
+    "fileName": "IMG_7148-scaled.webp",
+    "fileNameWithoutExt": "IMG_7148-scaled",
+    "relPath": "public\\images\\IMG_7148-scaled.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234799/haiquan_web/IMG_7148-scaled.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\IMG_7150-scaled.webp",
+    "fileName": "IMG_7150-scaled.webp",
+    "fileNameWithoutExt": "IMG_7150-scaled",
+    "relPath": "public\\images\\IMG_7150-scaled.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234800/haiquan_web/IMG_7150-scaled.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\IMG_7151-scaled.webp",
+    "fileName": "IMG_7151-scaled.webp",
+    "fileNameWithoutExt": "IMG_7151-scaled",
+    "relPath": "public\\images\\IMG_7151-scaled.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234800/haiquan_web/IMG_7151-scaled.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\in flexo.webp",
+    "fileName": "in flexo.webp",
+    "fileNameWithoutExt": "in flexo",
+    "relPath": "public\\images\\in flexo.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234801/haiquan_web/in_flexo.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\kich thuoc 15x10x10.webp",
+    "fileName": "kich thuoc 15x10x10.webp",
+    "fileNameWithoutExt": "kich thuoc 15x10x10",
+    "relPath": "public\\images\\kich thuoc 15x10x10.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234802/haiquan_web/kich_thuoc_15x10x10.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\kich thuoc 30x25x20.webp",
+    "fileName": "kich thuoc 30x25x20.webp",
+    "fileNameWithoutExt": "kich thuoc 30x25x20",
+    "relPath": "public\\images\\kich thuoc 30x25x20.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234802/haiquan_web/kich_thuoc_30x25x20.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\kich thuoc 50x40x40.webp",
+    "fileName": "kich thuoc 50x40x40.webp",
+    "fileNameWithoutExt": "kich thuoc 50x40x40",
+    "relPath": "public\\images\\kich thuoc 50x40x40.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234803/haiquan_web/kich_thuoc_50x40x40.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\kichthuocphobientmdt.webp",
+    "fileName": "kichthuocphobientmdt.webp",
+    "fileNameWithoutExt": "kichthuocphobientmdt",
+    "relPath": "public\\images\\kichthuocphobientmdt.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234804/haiquan_web/kichthuocphobientmdt.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\linh kien dien tu.webp",
+    "fileName": "linh kien dien tu.webp",
+    "fileNameWithoutExt": "linh kien dien tu",
+    "relPath": "public\\images\\linh kien dien tu.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234805/haiquan_web/linh_kien_dien_tu.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Man-in-Front-of-Rollstock.webp",
+    "fileName": "Man-in-Front-of-Rollstock.webp",
+    "fileNameWithoutExt": "Man-in-Front-of-Rollstock",
+    "relPath": "public\\images\\Man-in-Front-of-Rollstock.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234805/haiquan_web/Man-in-Front-of-Rollstock.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\nang-luc-san-xuat.webp",
+    "fileName": "nang-luc-san-xuat.webp",
+    "fileNameWithoutExt": "nang-luc-san-xuat",
+    "relPath": "public\\images\\nang-luc-san-xuat.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234806/haiquan_web/nang-luc-san-xuat.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\nganh go xuat khau.webp",
+    "fileName": "nganh go xuat khau.webp",
+    "fileNameWithoutExt": "nganh go xuat khau",
+    "relPath": "public\\images\\nganh go xuat khau.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234807/haiquan_web/nganh_go_xuat_khau.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\nganh thuy san.webp",
+    "fileName": "nganh thuy san.webp",
+    "fileNameWithoutExt": "nganh thuy san",
+    "relPath": "public\\images\\nganh thuy san.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234808/haiquan_web/nganh_thuy_san.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\OPF-Animation.webp",
+    "fileName": "OPF-Animation.webp",
+    "fileNameWithoutExt": "OPF-Animation",
+    "relPath": "public\\images\\OPF-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234809/haiquan_web/OPF-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Packages-on-Doorstep.webp",
+    "fileName": "Packages-on-Doorstep.webp",
+    "fileNameWithoutExt": "Packages-on-Doorstep",
+    "relPath": "public\\images\\Packages-on-Doorstep.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234809/haiquan_web/Packages-on-Doorstep.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\pallet giay.webp",
+    "fileName": "pallet giay.webp",
+    "fileNameWithoutExt": "pallet giay",
+    "relPath": "public\\images\\pallet giay.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234811/haiquan_web/pallet_giay.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\phu tro.webp",
+    "fileName": "phu tro.webp",
+    "fileNameWithoutExt": "phu tro",
+    "relPath": "public\\images\\phu tro.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234811/haiquan_web/phu_tro.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\POL-Animation.webp",
+    "fileName": "POL-Animation.webp",
+    "fileNameWithoutExt": "POL-Animation",
+    "relPath": "public\\images\\POL-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234812/haiquan_web/POL-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Protect-Icon-75x75-1.webp",
+    "fileName": "Protect-Icon-75x75-1.webp",
+    "fileNameWithoutExt": "Protect-Icon-75x75-1",
+    "relPath": "public\\images\\Protect-Icon-75x75-1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234813/haiquan_web/Protect-Icon-75x75-1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\RSC-Animation (1).webp",
+    "fileName": "RSC-Animation (1).webp",
+    "fileNameWithoutExt": "RSC-Animation (1)",
+    "relPath": "public\\images\\RSC-Animation (1).webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234814/haiquan_web/RSC-Animation_%281%29.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\RSC-Animation.webp",
+    "fileName": "RSC-Animation.webp",
+    "fileNameWithoutExt": "RSC-Animation",
+    "relPath": "public\\images\\RSC-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234815/haiquan_web/RSC-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\tam lot.webp",
+    "fileName": "tam lot.webp",
+    "fileNameWithoutExt": "tam lot",
+    "relPath": "public\\images\\tam lot.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234816/haiquan_web/tam_lot.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\Telescoping-Trays-Animation.webp",
+    "fileName": "Telescoping-Trays-Animation.webp",
+    "fileNameWithoutExt": "Telescoping-Trays-Animation",
+    "relPath": "public\\images\\Telescoping-Trays-Animation.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234817/haiquan_web/Telescoping-Trays-Animation.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\test.webp",
+    "fileName": "test.webp",
+    "fileNameWithoutExt": "test",
+    "relPath": "public\\images\\test.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234817/haiquan_web/test.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\theo ky thuat.webp",
+    "fileName": "theo ky thuat.webp",
+    "fileNameWithoutExt": "theo ky thuat",
+    "relPath": "public\\images\\theo ky thuat.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234818/haiquan_web/theo_ky_thuat.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\theo nganh.webp",
+    "fileName": "theo nganh.webp",
+    "fileNameWithoutExt": "theo nganh",
+    "relPath": "public\\images\\theo nganh.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234819/haiquan_web/theo_nganh.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\thung nua nap.webp",
+    "fileName": "thung nua nap.webp",
+    "fileNameWithoutExt": "thung nua nap",
+    "relPath": "public\\images\\thung nua nap.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234820/haiquan_web/thung_nua_nap.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\thuong mai dien tu.webp",
+    "fileName": "thuong mai dien tu.webp",
+    "fileNameWithoutExt": "thuong mai dien tu",
+    "relPath": "public\\images\\thuong mai dien tu.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234820/haiquan_web/thuong_mai_dien_tu.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\tt1.webp",
+    "fileName": "tt1.webp",
+    "fileNameWithoutExt": "tt1",
+    "relPath": "public\\images\\tt1.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234821/haiquan_web/tt1.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\tt2.webp",
+    "fileName": "tt2.webp",
+    "fileNameWithoutExt": "tt2",
+    "relPath": "public\\images\\tt2.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234822/haiquan_web/tt2.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\tt3.webp",
+    "fileName": "tt3.webp",
+    "fileNameWithoutExt": "tt3",
+    "relPath": "public\\images\\tt3.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234823/haiquan_web/tt3.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\tt4.webp",
+    "fileName": "tt4.webp",
+    "fileNameWithoutExt": "tt4",
+    "relPath": "public\\images\\tt4.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234824/haiquan_web/tt4.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\vach ngan.webp",
+    "fileName": "vach ngan.webp",
+    "fileNameWithoutExt": "vach ngan",
+    "relPath": "public\\images\\vach ngan.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234825/haiquan_web/vach_ngan.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\public\\images\\xu ly be mat.webp",
+    "fileName": "xu ly be mat.webp",
+    "fileNameWithoutExt": "xu ly be mat",
+    "relPath": "public\\images\\xu ly be mat.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234826/haiquan_web/xu_ly_be_mat.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\src\\assets\\hero.webp",
+    "fileName": "hero.webp",
+    "fileNameWithoutExt": "hero",
+    "relPath": "src\\assets\\hero.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234827/haiquan_web/hero.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\src\\assets\\logoHaiQuanWeb.webp",
+    "fileName": "logoHaiQuanWeb.webp",
+    "fileNameWithoutExt": "logoHaiQuanWeb",
+    "relPath": "src\\assets\\logoHaiQuanWeb.webp",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/image/upload/v1790234828/haiquan_web/logoHaiQuanWeb.webp"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\src\\assets\\react.svg",
+    "fileName": "react.svg",
+    "fileNameWithoutExt": "react",
+    "relPath": "src\\assets\\react.svg",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/raw/upload/v1790234829/haiquan_web/react.svg"
+  },
+  {
+    "localPath": "D:\\HaiQuanWeb\\Frontend\\src\\assets\\vite.svg",
+    "fileName": "vite.svg",
+    "fileNameWithoutExt": "vite",
+    "relPath": "src\\assets\\vite.svg",
+    "cloudUrl": "https://res.cloudinary.com/zq7yx874/raw/upload/v1790234829/haiquan_web/vite.svg"
+  }
+]
