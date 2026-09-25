@@ -4,7 +4,11 @@ export const footerData = {
   columns: [
     {
       title: 'Sản phẩm',
-      items: [{ label: 'Liên hệ nhân viên kinh doanh', to: '/lien-he' }],
+      items: [
+        { label: 'Thùng carton 3 lớp', to: '/san-pham/thung-carton-3-lop' },
+        { label: 'Thùng carton 5 lớp', to: '/san-pham/thung-carton-5-lop' },
+        { label: 'Liên hệ kinh doanh', to: '/lien-he' }
+      ],
     },
     {
       title: 'Về công ty',

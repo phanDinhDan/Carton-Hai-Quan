@@ -20,6 +20,8 @@ export const navigation: NavItem[] = [
     to: '/thung-carton',
     children: [
       { label: 'Theo kích thước', to: '/kieu-hop-co-ban' },
+      { label: 'Thùng carton 3 lớp', to: '/san-pham/thung-carton-3-lop' },
+      { label: 'Thùng carton 5 lớp', to: '/san-pham/thung-carton-5-lop' },
       { label: 'Theo ngành', to: '/theo-nganh' },
       { label: 'Theo kỹ thuật', to: '/theo-ky-thuat' },
       { label: 'Phụ trợ', to: '/phu-tro' },
